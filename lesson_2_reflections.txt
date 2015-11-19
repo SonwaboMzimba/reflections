@@ -1,3 +1,27 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-  iot creates a new folder. its needed to save commits and retrieve them when you need them
+  it creates a new folder. its needed to save commits and retrieve them when you need them
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+ 
+  its a stage where you can temporary place your changes on your documents be you commit. Fils are not temporarily left in the staging area
+
+How can you use the staging area to make sure you have one commit per logical change?
+  
+  staging area is a nice place to add small changes to your project so that they can accumilate to one decent size commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  
+  branches are convinient and can help if i want to create another version of the project, to see how it would be, compared to the master branch, without losing the risk of losing the original master branch
+
+How do the diagrams help you visualize the branch structure?
+  
+  so as to understand the structure of your commits and any other new branches that you may have created in relation to your original branch commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  
+  merging two branches together makes those two branches into one, and becomes the master head.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  
+  the pro is that you can merge two file easily and quickly without having to look through code. if git cannot deside which code to use and which to disgard, git will only show you the specific code in question.
